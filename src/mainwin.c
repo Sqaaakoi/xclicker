@@ -338,6 +338,10 @@ void start_clicked()
 		data->button = Button3;
 	else if (strcmp(mousebutton_text, "Middle") == 0)
 		data->button = Button2;
+	else if (strcmp(mousebutton_text, "Back") == 0)
+		data->button = 8;
+	else if (strcmp(mousebutton_text, "Forward") == 0)
+		data->button = 9;
 	else
 		data->button = Button1;
 
